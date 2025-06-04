@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vitor Voigt Gava | Portfólio</title>
+  <title>Vitor V. Gava</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts -->
@@ -15,30 +15,21 @@
     .scroll-smooth { scroll-behavior: smooth; }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800 scroll-smooth">
+<body class="bg-gray-900 text-gray-100 scroll-smooth">
   <!-- Navbar -->
-  <header class="fixed w-full bg-white shadow z-50">
+  <header class="fixed w-full bg-gray-800 shadow z-50">
     <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-      <a href="#home" class="text-2xl font-bold">Vitor Voigt Gava</a>
+      <a href="#home" class="text-2xl font-bold text-white">Vitor V. Gava</a>
       <nav>
         <ul class="flex space-x-6">
-          <li><a href="#about" class="hover:text-blue-600">Sobre</a></li>
-          <li><a href="#skills" class="hover:text-blue-600">Habilidades</a></li>
-          <li><a href="#projects" class="hover:text-blue-600">Projetos</a></li>
-          <li><a href="#contact" class="hover:text-blue-600">Contato</a></li>
+          <li><a href="#about" class="hover:text-blue-400">Sobre</a></li>
+          <li><a href="#skills" class="hover:text-blue-400">Habilidades</a></li>
+          <li><a href="#projects" class="hover:text-blue-400">Projetos</a></li>
+          <li><a href="#contact" class="hover:text-blue-400">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
-  <!-- Hero Section -->
-  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-indigo-600">
-    <div class="text-center text-white px-4">
-      <h1 class="text-5xl font-bold mb-4">Olá, eu sou <span class="text-yellow-300">Vitor</span></h1>
-      <p class="text-xl mb-6">Estudante de Ciência da Computação na USP │ Entusiasta de Estatística, Matemática e Programação</p>
-      <a href="#projects" class="inline-block bg-yellow-300 text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition">Ver Projetos</a>
-    </div>
-  </section>
 
   <!-- About Section -->
   <section id="about" class="py-20">
@@ -46,22 +37,22 @@
       <h2 class="text-3xl font-semibold text-center mb-8">Sobre Mim</h2>
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/3 mb-6 md:mb-0">
-          <img src="https://via.placeholder.com/300" alt="Foto do Vitor" class="rounded-full shadow-lg" />
+          <img src="static/my_photo.jpeg" alt="Foto do Vitor"/>
         </div>
         <div class="md:w-2/3 md:pl-8">
-          <p class="mb-4">Meu nome é <span class="font-semibold">Vitor Voigt Gava</span>, estou cursando o segundo ano de Ciência da Computação na Universidade de São Paulo (USP). Tenho grande interesse em estatística, computação científica, matemática, probabilidade e álgebra abstrata. Além disso, faço parte do time de futebol americano da faculdade, o que me ensinou muito sobre trabalho em equipe e disciplina.</p>
-          <p>Estou sempre em busca de desafios que me permitam aplicar meus conhecimentos em algoritmos, estrutura de dados e programação funcional (Haskell). Atualmente, utilizo Django para desenvolver projetos web e venho explorando cada vez mais computação científica em Python e ferramentas de visualização de dados.</p>
+          <p class="mb-4">Meu nome é <span class="font-semibold">Vitor Voigt Gava</span>, estou cursando o segundo ano de Ciência da Computação na Universidade de São Paulo (USP). .</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae unde quidem harum fuga accusamus laudantium repudiandae, error soluta sint dolore nam inventore doloribus pariatur reprehenderit! Dolor accusamus necessitatibus ducimus obcaecati.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="py-20 bg-gray-100">
+  <section id="skills" class="py-20 bg-gray-800">
     <div class="max-w-4xl mx-auto px-4">
       <h2 class="text-3xl font-semibold text-center mb-8">Habilidades</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+        <div class="p-6 bg-gray-700 rounded-lg shadow hover:shadow-xl transition">
           <h3 class="text-xl font-semibold mb-2">Linguagens</h3>
           <ul class="list-disc list-inside">
             <li>Python</li>
@@ -70,7 +61,7 @@
             <li>Assembly (NASM)</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+        <div class="p-6 bg-gray-700 rounded-lg shadow hover:shadow-xl transition">
           <h3 class="text-xl font-semibold mb-2">Frameworks e Ferramentas</h3>
           <ul class="list-disc list-inside">
             <li>Django</li>
@@ -79,7 +70,7 @@
             <li>Jupyter Notebooks</li>
           </ul>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+        <div class="p-6 bg-gray-700 rounded-lg shadow hover:shadow-xl transition">
           <h3 class="text-xl font-semibold mb-2">Áreas de Interesse</h3>
           <ul class="list-disc list-inside">
             <li>Estatística e Probabilidade</li>
@@ -97,31 +88,28 @@
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-3xl font-semibold text-center mb-12">Projetos</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Project Card 1 -->
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="https://via.placeholder.com/400x250" alt="Projeto Django" class="w-full h-48 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-2">Portal de Pesquisa (Django)</h3>
             <p class="mb-4">Um sistema web desenvolvido em Django para gerenciamento de artigos acadêmicos e visualização de dados estatísticos em tempo real.</p>
-            <a href="#" class="inline-block text-blue-600 font-semibold hover:underline">Ver Repositório</a>
+            <a href="#" class="inline-block text-blue-400 font-semibold hover:underline">Ver Repositório</a>
           </div>
         </div>
-        <!-- Project Card 2 -->
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="https://via.placeholder.com/400x250" alt="Projeto Haskell" class="w-full h-48 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-2">Ferramenta de Simulação (Haskell)</h3>
             <p class="mb-4">Projeto em Haskell para simulador de processos estocásticos, implementando algoritmos de Monte Carlo e visualização gráfica dos resultados.</p>
-            <a href="#" class="inline-block text-blue-600 font-semibold hover:underline">Ver Repositório</a>
+            <a href="#" class="inline-block text-blue-400 font-semibold hover:underline">Ver Repositório</a>
           </div>
         </div>
-        <!-- Project Card 3 -->
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="https://via.placeholder.com/400x250" alt="Algoritmos e Estrutura de Dados" class="w-full h-48 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-2">Análise de Algoritmos</h3>
             <p class="mb-4">Conjunto de implementações em Python e C de algoritmos clássicos (busca, ordenação, seleção) e análise de desempenho com gráficos de erro.</p>
-            <a href="#" class="inline-block text-blue-600 font-semibold hover:underline">Ver Repositório</a>
+            <a href="#" class="inline-block text-blue-400 font-semibold hover:underline">Ver Repositório</a>
           </div>
         </div>
       </div>
@@ -129,27 +117,24 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-gray-100">
+  <section id="contact" class="py-20 bg-gray-800">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-semibold mb-8">Entre em Contato</h2>
       <p class="mb-6">Estou disponível para colaborações, projetos acadêmicos e troca de conhecimentos. Vamos conversar!</p>
       <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
         <a href="mailto:vitor@example.com" class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition">Email</a>
-        <a href="https://github.com/vitorvoigtgava" target="_blank" class="bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition">GitHub</a>
+        <a href="https://github.com/vitorvoigtgava" target="_blank" class="bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition">GitHub</a>
         <a href="https://linkedin.com/in/vitorvoigtgava" target="_blank" class="bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition">LinkedIn</a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-white py-6 shadow-inner">
+  <footer class="bg-gray-800 py-6 shadow-inner">
     <div class="max-w-6xl mx-auto px-4 text-center">
-      <p class="text-gray-600">&copy; 2025 Vitor Voigt Gava. Todos os direitos reservados.</p>
-      <p class="text-gray-500 text-sm">Projetado com ❤️ usando Tailwind CSS</p>
+      <p class="text-gray-400">&copy; 2025 Vitor Voigt Gava. Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <!-- Optional: Smooth scroll script -->
   <script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
